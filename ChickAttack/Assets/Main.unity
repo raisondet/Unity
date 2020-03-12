@@ -447,7 +447,6 @@ GameObject:
   - component: {fileID: 906994894}
   - component: {fileID: 906994893}
   - component: {fileID: 906994895}
-  - component: {fileID: 906994896}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -537,23 +536,6 @@ MonoBehaviour:
   cannonBall: {fileID: 2455649730554188839, guid: 2971f1586d72a2f45bdcd25c0df0b5de,
     type: 3}
   spawnPoint: {fileID: 555562436}
---- !u!114 &906994896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906994892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54cad52c071eb543968505d7dd47566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  moveableRange: 5.5
-  power: 1000
-  cannonBall: {fileID: 0}
-  spawnPoint: {fileID: 0}
 --- !u!1 &990010449
 GameObject:
   m_ObjectHideFlags: 0
